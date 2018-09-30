@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="text_with_paragraphs">
+        Can this contain a lot of text? Can it contain \n a newline? Yes, it can.
+        Adding a 2nd line like this should work.
+        It should not cause parsing errors.
+    </string>
+    </resources>

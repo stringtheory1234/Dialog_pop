@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/wall"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:background="#000000"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textStyle="italic"
+        android:text="YOUR DETAILS"
+        android:textColor="#FFFFFF"
+        android:textSize="22dp"
+        />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="280dp"
+        android:text="right now your health and conditions are under your control ,you should act wisely now on so that youe
+BAC remains in the permissible level ,you can follow the following tips
+Decide judiciously before drinking if it would be right or not"
+        android:textSize="22dp"
+        android:textColor="#FFFFFF"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="280dp"
+        android:textColor="#FFFFFF"
+        android:textSize="22dp"
+        android:text="after drinking ,now your BAC would be nearly .02-.03 .only the most light drinkers would feel a subtle
+effect at this point of time .for any average person it may take 2-3 hours for the BAC to be 0. So you
+should take a break for atleast 2-3 hours so as to fully recover ,so take any decision wisely ."
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="280dp"
+        android:textColor="#FFFFFF"
+        android:textSize="22dp"
+        android:text="After drinking this much , the typical BAC would be around .03-.05 ,at this level the negative effects of
+alcohol start showing up-judgment will be impaired, often affecting people’s ability to make rational
+decisions, particularly around risk-taking activities such as driving and continuing to drink. Perception,
+learning, memory, coordination, sexual arousal, alertness, and self-control will also be impaired. It would
+take nearly 6 hrs to fully recover out of this state.
+The potential diseases that can be caused are loss of understanding ,stupor etc."
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="280dp"
+        android:text="now your BAC will be greater than .06, in this case vomiting is the first line of defence against
+overdose.at this stage one tends to suffer from euphoria ,diinhibition ,extraversion,over expression,
+nausea,central nervous system depression ,loss of understanding ,more of overdose may lead to fatal
+results, even leading to coma and ultimately death of individual."
+        android:textColor="#FFFFFF"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="53dp"
+        android:text="Details-
+your Blood Alcohol Concentration( BAC) is what determines how intoxicated or drunk you are, it varies
+with gender and weight ,it is expressed in terms of mg of ethanol in 100ml blood .
+Here is a general guide for you, actual results may vary sometimes."
+        android:textSize="22dp"
+        android:textColor="#FFFFFF"
+        android:visibility="visible" />
+
+
+</RelativeLayout>
